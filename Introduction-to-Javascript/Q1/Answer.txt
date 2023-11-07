@@ -1,0 +1,12 @@
+JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
+
+JavaScript is a weakly typed language (dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments. JavaScript is both an imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements. 
+
+
+
+Its Role in Web Development---
+Dynamically updating content: JavaScript can be used to update the content of a web page without reloading the entire page. This is often used to create real-time updates, such as displaying stock prices or news feeds.
+Interactive elements: JavaScript can be used to create interactive elements on web pages, such as buttons, menus, and forms. This allows users to interact with the web page in a more engaging way.
+Animations: JavaScript can be used to create animations on web pages. This can be used to add visual interest to a web page or to provide feedback to users.
+Games: JavaScript can be used to create games that run in a web browser. This has made it possible to create a wide variety of games that are easily accessible to anyone with an internet connection.
+Server-side scripting: JavaScript can also be used for server-side scripting, which means that it can be used to run code on a web server. This can be used to create more complex web applications.

@@ -1,0 +1,29 @@
+Importance of Comments
+
+1.Code Readability: Comments enhance the readability of code by providing explanations and context, making it easier for other developers to understand the intent of the code.
+
+2.Code Maintainability: As code evolves and undergoes modifications, comments provide valuable insights into the original structure and intent, facilitating future maintenance and updates.
+
+3.Self-Documentation: Comments act as self-documentation, reducing the need for external documentation and providing a reference point for developers revisiting the code.
+
+Types of Comments
+
+Single-Line Comments: These comments are used for brief explanations or annotations. They start with two forward slashes (//) and end at the end of the line.
+Example:
+
+// This variable stores the user's age
+let age = 30;
+Use code with caution. Learn more
+Multi-Line Comments: These comments are used for more extensive explanations or documentation. They start with /* and end with */.
+Example:
+
+
+/*
+   This function calculates the sum of two numbers
+   @param num1: The first number
+   @param num2: The second number
+   @return: The sum of num1 and num2
+*/
+function sum(num1, num2) {
+  return num1 + num2;
+}

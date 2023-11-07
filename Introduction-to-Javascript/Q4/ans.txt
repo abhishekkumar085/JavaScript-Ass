@@ -1,0 +1,12 @@
+1.Memory Allocation: Variables allocate memory to store values, ensuring that the data is preserved and accessible throughout the program.
+
+2.Data Typing: Variable declarations assign data types to the values, allowing JavaScript to interpret and handle the data correctly. For instance, a variable declared as a number will only store numeric values.
+
+3.Naming Conventions: Variable names provide labels for the data, making it easier to understand and reference the stored values in the code.
+
+4.Scope Management: Variable declarations determine the scope, which is the region of the program where the variable is accessible. This helps prevent conflicts and ensures that variables are used within their intended context.
+
+
+let age;
+age=20;
+Using the let keyword ensures that the variable is block-scoped, meaning it is only accessible within the block where it is declared. This helps prevent accidental variable reassignments and promotes code clarity.

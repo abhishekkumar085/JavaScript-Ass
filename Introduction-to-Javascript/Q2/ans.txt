@@ -1,0 +1,3 @@
+HTML (HyperText Markup Language) is a markup language that defines the structure and content of a web page. It consists of tags and attributes that specify the different elements on a page, such as headings, paragraphs, images, and links. HTML is a static language, meaning it doesn't provide dynamic behavior or interactivity.
+
+JavaScript is a scripting language that adds interactivity and dynamic behavior to web pages. It allows you to manipulate the content and elements of a page based on user actions or other events. JavaScript is an interpreted language, meaning it is executed by the web browser line by line without the need for compilation.
