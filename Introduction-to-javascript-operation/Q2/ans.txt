@@ -1,0 +1,107 @@
+Operators in JavaScript can be categorized based on their functionality into the following categories:
+
+1. Arithmetic Operators:
+
+Arithmetic operators perform mathematical operations on numeric values. They include:
+
++: Addition
+-: Subtraction
+*: Multiplication
+/: Division
+%: Modulus (remainder of division)
+++: Increment (adds 1)
+--: Decrement (subtracts 1)
+Example:
+
+JavaScript
+let x = 10;
+let y = 5;
+let sum = x + y; // sum = 15
+
+let difference = x - y; // difference = 5
+
+let product = x * y; // product = 50
+
+2. Comparison Operators:
+
+Comparison operators evaluate relationships between values, resulting in Boolean values (true or false). They include:
+
+==: Equality (checks if values are equal)
+!=: Inequality (checks if values are not equal)
+<: Less than (checks if the left operand is less than the right operand)
+<=: Less than or equal to (checks if the left operand is less than or equal to the right operand)
+>: Greater than (checks if the left operand is greater than the right operand)
+>=: Greater than or equal to (checks if the left operand is greater than or equal to the right operand)
+Example:
+
+
+let x = 10;
+let y = 5;
+
+let isEqual = x == y; // isEqual = false
+
+let isNotEqual = x != y; // isNotEqual = true
+
+let isLessThan = y < x; // isLessThan = true
+Use code with caution. Learn more
+3. Logical Operators:
+
+Logical operators combine Boolean values to form logical expressions. They include:
+
+&&: Logical AND (both operands must be true for the expression to be true)
+||: Logical OR (at least one operand must be true for the expression to be true)
+!: Logical NOT (inverts the Boolean value of the operand)
+Example:
+
+let isStudent = true;
+let isAdult = true;
+
+let isStudentAndAdult = isStudent && isAdult; // isStudentAndAdult = true
+
+let isStudentOrAdult = isStudent || isAdult; // isStudentOrAdult = true
+Use code with caution. Learn more
+4. Assignment Operators:
+
+Assignment operators assign values to variables. They include:
+
+=: Simple assignment (assigns the value on the right to the variable on the left)
++=: Addition assignment (adds the value on the right to the variable on the left and assigns the result to the variable)
+-=: Subtraction assignment (subtracts the value on the right from the variable on the left and assigns the result to the variable)
+*=: Multiplication assignment (multiplies the value on the right by the variable on the left and assigns the result to the variable)
+/=: Division assignment (divides the variable on the left by the value on the right and assigns the result to the variable)
+%=: Modulus assignment (computes the modulus (remainder) of the variable on the left divided by the value on the right and assigns the result to the variable)
+Example:
+
+
+let x = 10;
+
+x += 5; // x becomes 15
+x -= 3; // x becomes 12
+x *= 2; // x becomes 24
+Use code with caution. Learn more
+5. Bitwise Operators:
+
+Bitwise operators perform operations on the binary representations of values. They are commonly used for low-level programming tasks.
+
+Example:
+
+
+let x = 5; // Binary representation: 101
+let y = 3; // Binary representation: 011
+
+let bitwiseAnd = x & y; // Bitwise AND: 001 (1 in binary)
+let bitwiseOr = x | y; // Bitwise OR: 111 (7 in binary)
+let bitwiseNot = ~x; // Bitwise NOT: 110 (6 in binary)
+Use code with caution. Learn more
+6. String Operators:
+
+String operators perform operations on strings. They include:
+
++: Concatenation (joins two strings)
+Example:
+
+
+let firstName = "John";
+let lastName = "Doe";
+
+let fullName = firstName + " " + lastName; // fullName = "John Doe"

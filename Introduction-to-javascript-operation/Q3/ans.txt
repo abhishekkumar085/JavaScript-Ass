@@ -1,0 +1,43 @@
+
+## JavaScript operators can be classified into three main categories based on the number of operands they require: unary, binary, and ternary.
+
+Unary Operators:
+
+Unary operators operate on a single operand, which can be a variable, a value, or an expression. They are typically used to perform operations like negation, increment, decrement, logical negation, and type conversion.
+
+Examples:
+
+-: Unary minus (negates a number)
+++: Increment (adds 1 to a variable)
+--: Decrement (subtracts 1 from a variable)
+!: Logical NOT (inverts the Boolean value of an operand)
+typeof: Type conversion (returns the data type of an operand)
+Binary Operators:
+
+Binary operators operate on two operands, typically variables, values, or expressions. They are commonly used for arithmetic operations, comparison operations, logical operations, and assignment operations.
+
+Examples:
+
++: Addition
+-: Subtraction
+*: Multiplication
+/: Division
+%: Modulus (remainder of division)
+==: Equality
+!=: Inequality
+<: Less than
+<=: Less than or equal to
+>: Greater than
+>=: Greater than or equal to
+&&: Logical AND
+||: Logical OR
+=: Simple assignment
+Ternary Operators:
+
+Ternary operators, also known as conditional operators, operate on three operands. They take the form of a condition, followed by a question mark (?), then an expression to execute if the condition is true, followed by a colon (:), and finally, an expression to execute if the condition is false.
+
+Example:
+
+
+let isAdult = age >= 18;
+let message = isAdult ? "You are an adult." : "You are a minor.";
