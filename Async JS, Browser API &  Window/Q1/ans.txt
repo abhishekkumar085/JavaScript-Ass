@@ -1,0 +1,13 @@
+Q1. Define XMLHttpRequest object, and How is it used in AJAX?
+Ans :- XMLHTTPRequest object is an API which is used for fetching data from the server. XMLHTTPRequest is basically used in Ajax programming. It retrieve any type of data such as json, xml, text etc. It request for data in background and update the page without reloading page on client side. An object of XMLHTTPRequest is used for asynchronous communication between client and server. The $.ajax() method is used for the creation of XMLHTTPRequest object.
+
+The $.ajax() does following steps in background:
+
+Send data from background.
+Receives the data from the server.
+Update webpage without reloading the page.
+
+
+used in AJAX-
+
+In AJAX (Asynchronous JavaScript and XML), the XMLHttpRequest object is used to send HTTP or HTTPS requests asynchronously from a web page to a server and handle the server's response without needing to reload the entire page.
